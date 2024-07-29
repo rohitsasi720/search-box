@@ -3,15 +3,20 @@
     </div>
     <div id="sf-chat-popup" class="hidden">
       <div id="sf-chat-header">
-        <span>Search Chat</span>
+        <span>Search Products</span>
         <button id="sf-close-chat">&times;</button>
       </div>
       <div id="sf-chat-body">
-        <input
-          type="search"
-          id="sf-search-box"
-          placeholder="Type your search query here..."
-        />
-        <div id="sf-search-results"></div>
-      </div>
+    <div id="sf-messages">
+      <div id="sf-default-messages">Hi, how may i help you ?</div>
     </div>
+    <div id="sf-loading" class="sf-loading hidden">
+      <div class="sf-dot"></div>
+      <div class="sf-dot"></div>
+      <div class="sf-dot"></div>
+    </div>
+    <div id="sf-input-container">
+      <input type="text" id="sf-input-box" placeholder="Type your message here..." />
+      <button id="sf-send-btn">Send</button>
+    </div>
+  </div>
